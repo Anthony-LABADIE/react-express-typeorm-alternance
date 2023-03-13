@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  margin-top: 1rem;
+}
+.navbar--link {
+  display: flex;
+  gap: 4rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 1rem;
+  list-style: none;
+  color: var(--text-bg-color);
+  font-family: var(--text-font-family);
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.navbar--link-item {
+  text-decoration: none;
+  color: var(--text-bg-color);
+}

@@ -1,0 +1,31 @@
+.wilder_conainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.wilder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--card-font-color);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 15rem;
+}
+.img_profil {
+  width: 10rem;
+  height: 10rem;
+}
+.container_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.btn_wilder {
+  border-radius: 1rem;
+  background-color: var(--btn-bg-color);
+  color: var(--text-btn-color);
+  padding: 0.52rem;
+  width: 5rem;
+}
