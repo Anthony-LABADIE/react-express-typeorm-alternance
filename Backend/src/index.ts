@@ -7,6 +7,7 @@ import wilderRoutes from "./routes/wilder.routes";
 import languageRoutes from "./routes/language.routes";
 import noteRoutes from "./routes/note.routes";
 import cors from "cors";
+import "reflect-metadata"
 const app = express();
 
 app.use(cors());
